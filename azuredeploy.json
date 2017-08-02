@@ -139,33 +139,33 @@
             "metadata": {
                 "description": "Linked Templates base url"
             },
-            "defaultValue": "https://raw.githubusercontent.com/sumantshiv/AzureStack-QuickStart-Templates/sqlAlwaysOn_Staging/sql-2016-ha"
+            "defaultValue": "https://raw.githubusercontent.com/brian-swan/sqlha-2016-ha/master"
         },
-        "scriptsBaseUrl": {
-            "type": "string",
-            "metadata": {
-                "description": "DSC Scripts base url"
-            },
-            "defaultValue": "https://raw.githubusercontent.com/sumantshiv/AzureStack-QuickStart-Templates/sqlAlwaysOn_Staging/sql-2016-ha"
-        },
-        "autoPatchingDay": {
-            "type": "string",
-            "allowedValues": [
-                "Never",
-                "Everyday",
-                "Sunday",
-                "Monday",
-                "Tuesday",
-                "Wednesday",
-                "Thursday",
-                "Friday",
-                "Saturday"
-            ],
-            "metadata": {
-                "description": "The day of a week for auto patching"
-            },
-            "defaultValue": "Sunday"
-        },
+					"scriptsBaseUrl": {
+						"type": "string",
+						"metadata": {
+							"description": "DSC Scripts base url"
+						},
+						"defaultValue": "https://raw.githubusercontent.com/brian-swan/sqlha-2016-ha/master"
+					},
+					"autoPatchingDay": {
+						"type": "string",
+						"allowedValues": [
+							"Never",
+							"Everyday",
+							"Sunday",
+							"Monday",
+							"Tuesday",
+							"Wednesday",
+							"Thursday",
+							"Friday",
+							"Saturday"
+						],
+						"metadata": {
+							"description": "The day of a week for auto patching"
+						},
+						"defaultValue": "Sunday"
+					},
         "autoPatchingStartHour": {
             "type": "string",
             "allowedValues": [
